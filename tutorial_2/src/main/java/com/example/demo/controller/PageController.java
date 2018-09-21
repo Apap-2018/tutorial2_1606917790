@@ -39,13 +39,6 @@ public class PageController {
 		model.addAttribute("a", a);
 		model.addAttribute("b", b);
 		
-		if (a == 0) {
-			a = 1;
-		}
-		if (b == 0) {
-			b = 1;
-		}
-		
 		String word = "";
 		
 		if ( a == 0 || a == 1) {
